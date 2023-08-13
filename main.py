@@ -10,6 +10,7 @@ with open(filename, 'r') as fl:
             line = line.strip()
             full_line.append(line)
 
+            #another way of implementing the said approach
             '''line = line.split(',')
             #line11 = line.split(',')
             ave = 0
@@ -20,7 +21,6 @@ with open(filename, 'r') as fl:
             if ave<low:
                 low = ave
                 lowest_marks = line'''
-
     
                 
     f = lambda line: list(map(int, line.split(',')[1:]))
