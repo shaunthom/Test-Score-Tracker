@@ -22,5 +22,6 @@ with open(filename) as file:
           low_name = name
   HIGH = high_name
   LOW = low_name
+  #alternate algorithms can also be developed
   
   return (HIGH, round(high_score,2) , LOW, round(low_score,2))
